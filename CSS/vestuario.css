@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Phetsarath:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Phetsarath:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.navbar .menu {
+  padding: 20px;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 20px;
+}
+
+.navbar .menu a:hover {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(0, 72, 255);
+  font-size: 20px;
+}
+
+.navbar .menu li {
+  list-style-type: none;
+}
+
+.navbar .menu ul {
+  display: flex;
+  margin-top: 60px;
+}
+
+.navbar .menu img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.navbar .logo img {
+  width: 180px;
+  margin-top: 5px;
+  margin-left: 105px;
+  border-radius: 100px;
+  padding: 0px;
+}
+.imgBody {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+  .imgBody h1 {
+    position: absolute;
+    margin-right: 600px;
+    top: 250px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-style: oblique;
+  }
+
+  .footer{
+    background-color: #6c3c0c; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .team {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    flex-wrap: wrap; 
+  }
+  .member {
+    text-align: center;
+  }
+
+  .member h3 {
+    margin: 5px 0;
+  }
+  .member p {
+    margin: 2px 0;
+  }
+  .member a {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  .member a:hover {
+    text-decoration: underline;
+  }
+
+  h1{
+    font-weight: 900;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+h2,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  main {
+    display: block;
+    background-color: #fff;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  section.module p {
+    margin-bottom: 40px;
+  }
+  
+  section.module:last-child {
+    margin-bottom: 0;
+  }
+  
+  section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  section.module.content {
+    padding: 40px 0;
+    background: #ffffff;
+  }
+  
+  section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  
+  section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(
+      to bottom,
+    );
+    background: linear-gradient(
+      to bottom,
+    );
+  }
+  
+  section.module.parallax-1 {
+    background-image: url("https://img.freepik.com/fotos-gratis/amigos-baixos-vestidos-para-o-carnaval_23-2148825072.jpg?t=st=1732492542~exp=1732496142~hmac=165909f184306839078b3ea457e7987998bdb41e2d0b8f30b3c2aa0ee33ea84f&w=1380");
+  }
+  
+  section.module.parallax-2 {
+    background-image: url("https://img.freepik.com/fotos-gratis/close-up-instrumentos-para-festival_23-2148825049.jpg?t=st=1732496342~exp=1732499942~hmac=e1248d72855bd4eb57d9da1f59ae3138b6ea7d88fa51ba245e896c6a09b89e88&w=1380");
+  }
+
+  section.module.parallax-3 {
+    background-image: url("https://photos.enjoei.com.br/kit-feminino-com-acessorios-africanos/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zMTA4MTUxOS9kZmI5NmJjMWU1ZjdjNjBjMTg5NmMzMzcwODNmNjIwMi5qcGc");
+  }
+
+  section.module.parallax h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+  }
+  
+  @media all and (max-width: 820px) {
+    section.module h2 {
+      font-size: 32px;
+    }
+    .module h2,
+    p {
+      padding: 0 8px;
+    }
+  
+    .container {
+      margin: 0;
+      padding: 0;
+    }
+  
+    section.module.parallax h1 {
+      font-size: 36px;
+    }
+  }
+
+  .introducao {
+    display: flex;
+  }
+  .introducao img {
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+.introducao .apresentacao h1 {
+    margin-top: 90px;
+    margin-left: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    font-size: 50px;
+  }
+  .introducao .apresentacao p {
+    margin-left: 150px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+  }
+
+  .introducao2 {
+    display: flex;
+  }
+  .introducao2 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 60px;
+  }
+
+  .introducao2 .apresentacao2 h1 {
+    margin-top: 90px;
+    margin-left: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    font-size: 50px;
+  }
+  .introducao2 .apresentacao2 p {
+    margin-left: 150px;
+    margin-right: 30px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+  }
+
+  .letra{
+    font-weight: 500;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.image-container {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+  }
+  
+  
+  .gallery-item {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .gallery-item img {
+    width: 350px;
+    height: 250px; 
+    display: block; 
+    margin-bottom: 10px; 
+  }
+
+
